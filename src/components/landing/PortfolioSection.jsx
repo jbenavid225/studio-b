@@ -107,7 +107,7 @@ export default function PortfolioSection() {
     },
     {
       type: "Web App",
-      title: "FitTracker",
+      title: "Gym Heroes",
       slug: "fittracker",
       desc: "Panel para seguimiento de hábitos y rutinas.",
       tags: ["React", "API", "Auth"],

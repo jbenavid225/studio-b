@@ -50,7 +50,7 @@ export default function ReviewWhatsappForm({ open, onClose }) {
       `Reseña:\n${text}\n\n` +
       `Autorizo a Studio B a publicar esta reseña en su sitio web: Sí`;
 
-    const url = `https://wa.me/${+541165556786}?text=${encodeURIComponent(
+    const url = `https://wa.me/${+5491137860964}?text=${encodeURIComponent(
       message
     )}`;
 

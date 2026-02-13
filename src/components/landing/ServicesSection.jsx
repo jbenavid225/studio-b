@@ -106,7 +106,7 @@ export default function ServicesSection() {
     {
       icon: <Layout className="w-5 h-5 text-violet-400" />,
       title: "Landing Page",
-      price: "Desde $299",
+      price: "Desde $150.000",
       desc: "Página única diseñada para convertir. Perfecta para campañas, lanzamientos o captar leads.",
       bullets: ["Diseño responsive", "Optimización SEO", "Formulario de contacto", "Entrega en 7 días"],
       featured: false,
@@ -114,7 +114,7 @@ export default function ServicesSection() {
     {
       icon: <Globe className="w-5 h-5 text-violet-400" />,
       title: "Sitio Web",
-      price: "Desde $799",
+      price: "Desde $300.000",
       desc: "Presencia digital completa con múltiples páginas. Ideal para empresas establecidas.",
       bullets: ["Hasta 8 páginas", "Blog integrado", "Panel de administración", "Analytics incluido"],
       featured: true,
@@ -123,7 +123,7 @@ export default function ServicesSection() {
     {
       icon: <ShoppingCart className="w-5 h-5 text-violet-400" />,
       title: "E-Shop",
-      price: "Desde $1,299",
+      price: "Desde $700.000",
       desc: "Tu tienda online completa. Vendé productos físicos o digitales las 24 horas.",
       bullets: ["Catálogo ilimitado", "Pasarela de pagos", "Gestión de inventario", "Carrito de compras"],
       featured: false,

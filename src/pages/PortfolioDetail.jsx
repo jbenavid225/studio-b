@@ -18,13 +18,12 @@ export default function PortfolioDetail() {
         </h1>
 
         <p className="mt-4 text-zinc-400 leading-relaxed">
-          Esta es una página placeholder. Acá vas a completar el caso real del proyecto:
-          descripción, objetivos, tecnologías, resultados, links, etc.
+          Esta pagina se encuentra en proceso...
         </p>
 
         <div className="mt-10 rounded-3xl border border-white/10 bg-white/5 p-8">
           <p className="text-zinc-300">
-            ✅ Tip: después podemos conectar esta página a un JSON / CMS para que sea autoadministrable.
+            ✅ Working...
           </p>
         </div>
       </div>
