@@ -2,8 +2,11 @@ import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "../ui/button";
+const [projectType, setProjectType] = useState("");
+const [budget, setBudget] = useState("");
 
-const WHATSAPP_NUMBER = "5491123456789"; // 👈 CAMBIAR (sin +, sin espacios)
+
+const WHATSAPP_NUMBER = "5491137860964"; // 👈 CAMBIAR (sin +, sin espacios)
 const EMAIL_CONTACTO = "hola@studiob.com"; // 👈 CAMBIAR si querés
 const LOCATION_TEXT = "Buenos Aires, Argentina";
 
@@ -113,8 +116,8 @@ export default function ContactSection() {
               <InfoItem
                 icon={Phone}
                 label="WhatsApp"
-                value={"+54 9 11 1234-5678"}
-                href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                value={"+54 9 11 3786-0964"}
+                href={`https://wa.me/${5491137860964}`}
               />
               <InfoItem icon={MapPin} label="Ubicación" value={LOCATION_TEXT} />
             </div>
@@ -168,39 +171,62 @@ export default function ContactSection() {
                   />
                 </div>
 
-                <div>
-                  <label className="text-sm text-zinc-300">Tipo de proyecto</label>
-                  <select
-                    value={projectType}
-                    onChange={(e) => setProjectType(e.target.value)}
-                    className="mt-2 w-full rounded-2xl bg-white/5 border border-white/10 px-4 py-3 text-white outline-none
-                               focus:border-violet-400/40"
-                  >
-                    <option value="">Seleccionar</option>
-                    <option value="Landing Page">Landing Page</option>
-                    <option value="Sitio Web">Sitio Web</option>
-                    <option value="E-Shop">E-Shop</option>
-                    <option value="Web App">Web App</option>
-                  </select>
-                </div>
+               {/* Tipo de proyecto */}
+<div>
+  <label className="block text-sm text-zinc-300 mb-2">Tipo de proyecto</label>
+  <select
+    value={projectType}
+    onChange={(e) => setProjectType(e.target.value)}
+    className="w-full rounded-xl bg-[#0F0F12] border border-white/10 px-4 py-3 text-white
+               focus:outline-none focus:ring-2 focus:ring-violet-500/40 focus:border-violet-400/30"
+  >
+    <option value="" disabled className="bg-[#0A0A0B] text-zinc-400">
+      Seleccionar
+    </option>
+
+    <option value="Landing Page" className="bg-[#0A0A0B] text-white">
+      Landing Page
+    </option>
+    <option value="Sitio Web" className="bg-[#0A0A0B] text-white">
+      Sitio Web
+    </option>
+    <option value="E-Shop" className="bg-[#0A0A0B] text-white">
+      E-Shop
+    </option>
+    <option value="Web App" className="bg-[#0A0A0B] text-white">
+      Web App
+    </option>
+  </select>
+</div>
               </div>
 
-              <div>
-                <label className="text-sm text-zinc-300">Presupuesto estimado</label>
-                <select
-                  value={budget}
-                  onChange={(e) => setBudget(e.target.value)}
-                  className="mt-2 w-full rounded-2xl bg-white/5 border border-white/10 px-4 py-3 text-white outline-none
-                             focus:border-violet-400/40"
-                >
-                  <option value="">Seleccionar rango</option>
-                  <option value="USD 200 - 400">USD 200 - 400</option>
-                  <option value="USD 400 - 800">USD 400 - 800</option>
-                  <option value="USD 800 - 1500">USD 800 - 1500</option>
-                  <option value="USD 1500+">USD 1500+</option>
-                  <option value="A consultar">A consultar</option>
-                </select>
-              </div>
+              {/* Presupuesto */}
+<div>
+  <label className="block text-sm text-zinc-300 mb-2">Presupuesto estimado</label>
+  <select
+    value={budget}
+    onChange={(e) => setBudget(e.target.value)}
+    className="w-full rounded-xl bg-[#0F0F12] border border-white/10 px-4 py-3 text-white
+               focus:outline-none focus:ring-2 focus:ring-violet-500/40 focus:border-violet-400/30"
+  >
+    <option value="" disabled className="bg-[#0A0A0B] text-zinc-400">
+      Seleccionar rango
+    </option>
+
+    <option value="Menos de $300" className="bg-[#0A0A0B] text-white">
+      Menos de $300
+    </option>
+    <option value="$300 – $800" className="bg-[#0A0A0B] text-white">
+      $300 – $800
+    </option>
+    <option value="$800 – $1500" className="bg-[#0A0A0B] text-white">
+      $800 – $1500
+    </option>
+    <option value="Más de $1500" className="bg-[#0A0A0B] text-white">
+      Más de $1500
+    </option>
+  </select>
+</div>
 
               <div>
                 <label className="text-sm text-zinc-300">Cuéntanos tu proyecto *</label>

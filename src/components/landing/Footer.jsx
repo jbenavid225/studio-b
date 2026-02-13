@@ -64,7 +64,7 @@ export default function Footer() {
               type="facebook"
             />
             <Pill
-              href={`https://wa.me/${WHATSAPP_NUMBER}`}
+              href={`https://wa.me/${541137860964}`}
               icon={MessageCircle}
               label="WhatsApp"
               type="whatsapp"
