@@ -1,0 +1,8 @@
+Nota rápida sobre “fotos reales”
+
+Ahora usa iniciales para que quede prolijo sin inventar imágenes.
+Cuando tengas fotos reales:
+
+ponés avatarUrl: "/avatars/maria.jpg" por ejemplo
+
+guardás archivos en public/avatars/

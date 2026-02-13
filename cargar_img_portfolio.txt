@@ -1,0 +1,14 @@
+Para cargar imagenes del portfolio:
+En vez de usar URLs externas, descargá una imagen y guardala en:
+
+src/assets/portfolio/nombre.jpg
+
+
+------------------------
+Luego en PortfolioSection.jsx arriba del archivo agregás:
+
+import cafeAromaImg from "../../assets/portfolio/cafe-aroma.jpg";
+---------------------------------------------------------------------
+Y en el objeto:
+
+image: cafeAromaImg,
