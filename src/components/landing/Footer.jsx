@@ -52,7 +52,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-4">
             <Pill
-              href={INSTAGRAM_URL}
+              href={"https://www.instagram.com/studiob.web/"}
               icon={Instagram}
               label="Instagram"
               type="instagram"
