@@ -41,13 +41,20 @@ export default function HeroSection() {
             <span className="text-sm text-zinc-300">Diseño web de alto impacto</span>
           </motion.div>
 
-          <h1 className="text-6xl md:text-8xl lg:text-[120px] font-bold tracking-[-2px] leading-none mb-6">
-            <span className="text-white">STUDIO</span>
-            <span className="bg-gradient-to-r from-violet-400 via-purple-400 to-violet-500 bg-clip-text text-transparent">
-              {" "}
-              B
-            </span>
-          </h1>
+          {/* H1 SEO */}
+<h1 className="sr-only">
+  Diseño web de alto impacto para emprendedores
+</h1>
+
+{/* Marca visual */}
+<div className="text-6xl md:text-8xl lg:text-[120px] font-bold tracking-[-2px] leading-none mb-6">
+  <span className="text-white">STUDIO</span>
+  <span className="bg-gradient-to-r from-violet-400 via-purple-400 to-violet-500 bg-clip-text text-transparent">
+    {" "}
+    B
+  </span>
+</div>
+
 
           <p className="text-xl md:text-2xl text-zinc-400/80 max-w-2xl mx-auto mb-12 leading-relaxed">
             Creamos experiencias digitales que transforman visitantes en clientes.
@@ -80,9 +87,9 @@ export default function HeroSection() {
           className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto"
         >
           {[
-            { number: "50+", label: "Proyectos" },
+            { number: "+20", label: "Proyectos" },
             { number: "98%", label: "Clientes felices" },
-            { number: "5", label: "Años experiencia" },
+            { number: "2", label: "Años experiencia" },
           ].map((stat) => (
             <div
               key={stat.label}

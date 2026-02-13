@@ -57,7 +57,7 @@ export default function AboutSection() {
             </p>
 
             <p className="text-zinc-400 leading-relaxed">
-              Con más de <span className="text-white font-semibold">5 años</span>{" "}
+              Con más de <span className="text-white font-semibold">2 años</span>{" "}
               de experiencia, ayudamos a empresas de todos los tamaños a
               establecer una presencia digital memorable y efectiva. Nuestro
               enfoque es simple: escuchamos, diseñamos y entregamos experiencias

@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "../ui/button";
 
 const WHATSAPP_NUMBER = "5491137860964"; // 👈 CAMBIAR (sin +, sin espacios)
-const EMAIL_CONTACTO = "hola@studiob.com"; // 👈 CAMBIAR si querés
+const EMAIL_CONTACTO = "contacto@studiob.com.ar"; // 👈 CAMBIAR si querés
 const LOCATION_TEXT = "Buenos Aires, Argentina";
 
 const fadeUp = {
@@ -108,7 +108,7 @@ export default function ContactSection() {
                 icon={Mail}
                 label="Email"
                 value={EMAIL_CONTACTO}
-                href={`mailto:${EMAIL_CONTACTO}`}
+                href={`mailto:${"contacto@studiob.com.ar"}`}
               />
               <InfoItem
                 icon={Phone}
