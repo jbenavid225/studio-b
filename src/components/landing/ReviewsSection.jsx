@@ -96,7 +96,7 @@ export default function ReviewsSection() {
         "Increíble trabajo. Entendieron perfectamente lo que necesitaba y el resultado superó mis expectativas.",
       name: "María García",
       company: "Café Aroma",
-      avatarUrl: "/avatars/usuario1.jpeg",
+      avatarUrl: "/avatars/usuario1.jpg",
     },
     {
       stars: 5,
@@ -104,7 +104,7 @@ export default function ReviewsSection() {
         "Profesionales de principio a fin. Cumplieron con los tiempos y el presupuesto.",
       name: "Carlos Mendoza",
       company: "TechFlow Solutions",
-      avatarUrl: "/avatars/usuario2.jpeg",
+      avatarUrl: "/avatars/usuario2.jpg",
     },
     {
       stars: 5,
