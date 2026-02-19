@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import cafeAromaImg from "../../assets/portfolio/cafe-aroma.jpg";
+import estudiovegaimg from "../../assets/portfolio/estudio-vega.jpg";
 
 
 const fadeUp = {
@@ -86,15 +87,16 @@ export default function PortfolioSection() {
 }
 ,
     {
-      type: "Sitio Web",
-      title: "TechFlow",
-      slug: "techflow",
-      desc: "Sitio corporativo para empresa de software.",
-      tags: ["Next.js", "TypeScript", "Prisma"],
-      isDemo: true,
-      image:
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=70",
-    },
+  type: "Sitio Web",
+  title: "Estudio Vega",
+  slug: "estudio-vega",
+  desc: "Sitio web para estudio de abogados.",
+  url: "https://estudio-vega.vercel.app/",
+  tags: ["Next.js", "TypeScript", "Prisma"],
+  isDemo: false,
+  image: estudioVega,
+}
+,
     {
       type: "E-Shop",
       title: "Bella Mode",
