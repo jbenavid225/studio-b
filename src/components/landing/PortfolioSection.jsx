@@ -92,9 +92,9 @@ export default function PortfolioSection() {
   slug: "estudio-vega",
   desc: "Sitio web para estudio de abogados.",
   url: "https://estudio-vega.vercel.app/",
-  tags: ["Next.js", "TypeScript", "Prisma"],
+  tags: ["React", "Tailwind", "Supabase"],
   isDemo: false,
-  image: estudioVega,
+  image: estudiovegaimg,
 }
 ,
     {
