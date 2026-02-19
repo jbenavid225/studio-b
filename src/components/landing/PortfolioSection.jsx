@@ -159,8 +159,8 @@ export default function PortfolioSection() {
           </h2>
 
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            Cada proyecto es único. Aquí algunos trabajos demo para mostrar estilo y calidad.
-            (Luego reemplazás slugs, textos e imágenes por casos reales.)
+            Cada proyecto es único. Aquí algunos trabajos demo y terminados para mostrar nuestro estilo y calidad.
+            
           </p>
         </motion.div>
 
