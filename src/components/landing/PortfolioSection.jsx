@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import cafeAromaImg from "../../assets/portfolio/cafe-aroma.jpg";
 import estudiovegaimg from "../../assets/portfolio/estudio-vega.jpg";
+import rocasimg from "../../assets/portfolio/rocas.jpg";
 
 
 const fadeUp = {
@@ -76,13 +77,13 @@ export default function PortfolioSection() {
   const items = [
    {
   type: "Landing Page",
-  title: "Café Aroma",
-  slug: "cafe-aroma",
-  url: "https://www.cafearoma.com.ar", // 👈 AGREGAR ESTO
-  desc: "Landing para cafetería artesanal con reservas online.",
+  title: "Rocas Mensajeria",
+  slug: "rocas-mensajeria",
+  url: "https://rocas-motomensajeria.vercel.app/", // 👈 AGREGAR ESTO
+  desc: "Landing para servicio de mensajeria y fletes en Bs As.",
   tags: ["React", "Tailwind", "Node.js"],
   isDemo: false,
-  image: cafeAromaImg,
+  image: rocasimg,
 
 }
 ,
